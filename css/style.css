@@ -151,7 +151,7 @@ header h1{
   color: #333;
   margin: 0;
   padding: 0;
-  line-height: 1.6;
+  line-height: 1.1;
 }
 
 /* PC設定 */
@@ -186,7 +186,11 @@ header h1{
   }
   .h2-history{
   font-size: 50px;
-  line-height: 1.1;
+  }
+}
+@media (min-width: 1029px) {
+  .h2-history{
+  line-height: 1.6;
   }
 }
 
